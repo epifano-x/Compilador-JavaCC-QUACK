@@ -15,9 +15,9 @@ Para compilar o código-fonte do compilador Quack, siga estas etapas:
 
 1. Clone este repositório para a sua máquina local:
 
-   ```bash
-   git clone https://github.com/seu-usuario/quack-compiler.git
-```
+
+   -git clone https://github.com/seu-usuario/quack-compiler.git
+
 # Navegue até o diretório do projeto:
 cd quack-compiler
 
