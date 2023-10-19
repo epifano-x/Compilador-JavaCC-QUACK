@@ -18,28 +18,29 @@ Para compilar o código-fonte do compilador Quack, siga estas etapas:
 
    -git clone https://github.com/seu-usuario/quack-compiler.git
 
-# Navegue até o diretório do projeto:
-cd quack-compiler
+2. Navegue até o diretório do projeto:
+   -cd quack-compiler
 
-# Compile o código-fonte com o seguinte comando:
-javacc QuackParser.jj
-# Isso gerará os arquivos Java necessários para o compilador.
+3. Compile o código-fonte com o seguinte comando:
+   -javacc QuackParser.jj
 
-# Compile os arquivos Java gerados:
-javac *.java
+ Isso gerará os arquivos Java necessários para o compilador.
+
+4. Compile os arquivos Java gerados:
+   -javac *.java
 
 # Uso
-# Após compilar o código-fonte, você pode usar o compilador Quack da seguinte maneira:
-java QuackParser arquivo_de_entrada.qk
-# Substitua "arquivo_de_entrada.qk" pelo nome do arquivo Quack que você deseja compilar.
+Após compilar o código-fonte, você pode usar o compilador Quack da seguinte maneira:
+   -java QuackParser arquivo_de_entrada.qk
+Substitua "arquivo_de_entrada.qk" pelo nome do arquivo Quack que você deseja compilar.
 
 # Exemplos
-# O diretório "exemplos" contém alguns programas de exemplo em Quack que você pode usar para testar o compilador.
+O diretório "exemplos" contém alguns programas de exemplo em Quack que você pode usar para testar o compilador.
 
 # Contribuições
-# Contribuições são bem-vindas! Se você encontrar problemas, desejar adicionar novos recursos ou melhorias, sinta-se à vontade para criar um pull request.
+Contribuições são bem-vindas! Se você encontrar problemas, desejar adicionar novos recursos ou melhorias, sinta-se à vontade para criar um pull request.
 
 # Licença
-# Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para obter detalhes.
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para obter detalhes.
 
-# Divirta-se programando em Quack! 😃
+Divirta-se programando em Quack! 😃
